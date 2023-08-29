@@ -98,9 +98,11 @@ cursor: pointer;
 
 }
 
+  
+
 .loadMoreBtn{
     border: none;
-    background-color:blue;
+    background-color:forestgreen;
     color: white;
     font-size: 20px;
     font-weight: 600;
@@ -108,10 +110,12 @@ cursor: pointer;
     border-radius: 6px;
     cursor: pointer;
     display: none;
-    margin-left: 39%;
+   display: flex;
+   justify-content: center;
 
 }
-
+.loadMoreBtn:hover{
+   background: blue;
 }
 main section{
     display: flex;
@@ -124,7 +128,7 @@ main section{
 
 .credit{
     border:#20b2aa;
-   font-weight: 600;
+   
    padding-top: 15px;
    
 }
